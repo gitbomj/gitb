@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Price Tracker</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <p id="walletAddress">Wallet Address: <span>Not connected</span></p>
+
+        <div id="priceTracker">
+            <h2>Current Prices:</h2>
+            <ul id="cryptoPrices">
+                <li>Bitcoin (BTC): <span id="btcPrice">Loading...</span></li>
+                <li>Ethereum (ETH): <span id="ethPrice">Loading...</span></li>
+                <li>Binance Coin (BNB): <span id="bnbPrice">Loading...</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
